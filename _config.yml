@@ -2,7 +2,7 @@
 title: EITI Datathon 2022
 description: ""
 email: "eitidatathon@okfn.org"
-baseurl: ""
+baseurl: "/eitidatathon2022-guide"
 logo: "assets/img/eiti-datathon-gradient.png"
 favicon: favicon.ico
 repo_address: "school-of-data/eitidatathon2022-guide"
