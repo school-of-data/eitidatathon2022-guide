@@ -1,0 +1,43 @@
+# site settings
+title: EITI Datathon 2022
+description: ""
+email: "eitidatathon@okfn.org"
+baseurl: ""
+logo: "assets/img/eiti-datathon-gradient.png"
+favicon: favicon.ico
+repo_address: "school-of-data/eitidatathon2022-guide"
+messenger: ""
+facebook: ""
+twitter: ""
+instagram: ""
+mastodon: ""
+telegram: ""
+github: ""
+
+# exclude
+exclude:
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+# kramdown:
+#     input: GFM
+#     syntax_highlighter: rouge
+
+collections:
+    collection_faq_general:
+    collection_faq_application:
+    collection_faq_eligibility:
+    collection_faq_submission:
+        
+
+# plugins
+plugins:
+    - github-pages
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-redirect-from

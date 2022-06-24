@@ -1,0 +1,57 @@
+$color-primary-1: #132856;
+$color-primary-2: #165B89;
+$color-primary-3: #188FBB;
+$color-primary-4: #1BC2EE;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-grey: #7f7f7f;
+
+$color-muted: #f3f3f3;
+$color-accent-1: #EBCB9F;
+$color-accent-2: #6D5339;
+$color-accent-3: #89AA2E;
+$color-accent-4: #89AA2E;
+$color-accent-5: #F6A70A;
+$color-accent-6: #D24228;
+$color-accent-7: #D24228;
+$color-accent-8: #7A335C;
+
+.color-primary-1 {
+    color: $color-primary-1;
+}
+
+.color-black {
+    color: $color-black;
+}
+
+.color-white {
+    color: $color-white;
+}
+
+.color-muted {
+    color: $color-muted;
+}
+
+.bg-color-primary-1 {
+    background-color: $color-primary-1;
+}
+
+.bg-color-primary-2 {
+    background-color: $color-primary-2;
+}
+
+.bg-color-primary-3 {
+    background-color: $color-primary-3;
+}
+
+.bg-color-primary-4 {
+    background-color: $color-primary-4;
+}
+
+.bg-color-muted {
+    background-color: $color-muted;
+}
+
+.bg-color-accent-1 {
+    background-color: $color-accent-1;
+}

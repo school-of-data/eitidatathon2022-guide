@@ -1,0 +1,104 @@
+<div class="container py-4">
+    <h1>FAQ</h1>
+    
+    <div class="accordion" id="faq_accordion">
+      <div class="card">
+        <div class="card-header bg-color-primary-1" id="gen_h1">
+          <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#gen_c1" aria-expanded="false" aria-controls="gen_c1">
+          <h2 class="color-white">General</h2>
+          </button>
+        </div>
+        <div id="gen_c1" class="collapse" aria-labelledby="gen_h1" data-parent="#faq_accordion">
+          {% for item in site.collection_faq_general %}
+            <div class="accordion" id="{{ item.div_id }}">
+              <div class="card-header" id="{{ item.card_id }}">
+                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#{{ item.aria-controls}}" aria-expanded="false" aria-controls="{{ item.aria-controls}}">
+                <h3>{{ item.question }}</h3>
+                </button>
+              </div>
+              <div id="{{ item.aria-controls}}" class="collapse" aria-labelledby="{{ item.card_id }}" data-parent="#{{ item.div_id }}">
+                <div class="card-body">
+                  {{ item.answer }}  
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header bg-color-primary-1" id="app_h1">
+            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#app_c1" aria-expanded="false" aria-controls="app_c1">
+            <h2 class="color-white">Application Process</h2>
+            </button>
+        </div>
+        <div id="app_c1" class="collapse" aria-labelledby="app_h1" data-parent="#faq_accordion">
+          {% for item in site.collection_faq_application %}
+            <div class="accordion" id="{{ item.div_id }}">
+              <div class="card-header" id="{{ item.card_id }}">
+                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#{{ item.aria-controls}}" aria-expanded="false" aria-controls="{{ item.aria-controls}}">
+                <h3>{{ item.question }}</h3>
+                </button>
+              </div>
+              <div id="{{ item.aria-controls}}" class="collapse" aria-labelledby="{{ item.card_id }}" data-parent="#{{ item.div_id }}">
+                <div class="card-body">
+                  {{ item.answer }}  
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header bg-color-primary-1" id="eli_h1">
+            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#eli_c1" aria-expanded="false" aria-controls="eli_c1">
+            <h2 class="color-white">Eligibility</h2>
+            </button>
+        </div>
+        <div id="eli_c1" class="collapse" aria-labelledby="eli_h1" data-parent="#faq_accordion">
+          {% for item in site.collection_faq_eligibility %}
+            <div class="accordion" id="{{ item.div_id }}">
+              <div class="card-header" id="{{ item.card_id }}">
+                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#{{ item.aria-controls}}" aria-expanded="false" aria-controls="{{ item.aria-controls}}">
+                <h3>{{ item.question }}</h3>
+                </button>
+              </div>
+              <div id="{{ item.aria-controls}}" class="collapse" aria-labelledby="{{ item.card_id }}" data-parent="#{{ item.div_id }}">
+                <div class="card-body">
+                  {{ item.answer }}  
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header bg-color-primary-1" id="sub_h1">
+            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#sub_c1" aria-expanded="false" aria-controls="sub_c1">
+            <h2 class="color-white">Submission</h2>
+            </button>
+        </div>
+        <div id="sub_c1" class="collapse" aria-labelledby="sub_h1" data-parent="#faq_accordion">
+          {% for item in site.collection_faq_submission %}
+            <div class="accordion" id="{{ item.div_id }}">
+              <div class="card-header" id="{{ item.card_id }}">
+                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#{{ item.aria-controls}}" aria-expanded="false" aria-controls="{{ item.aria-controls}}">
+                <h3>{{ item.question }}</h3>
+                </button>
+              </div>
+              <div id="{{ item.aria-controls}}" class="collapse" aria-labelledby="{{ item.card_id }}" data-parent="#{{ item.div_id }}">
+                <div class="card-body">
+                  {{ item.answer }}  
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    
+    
+    </div>
+
+  </div>
