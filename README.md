@@ -1,4 +1,4 @@
-# Pista ng Mapa 2020
+# EITI Datathon 2022 Guide
 
 ![Creative Commons License BY-SA](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
 
