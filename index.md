@@ -3,25 +3,33 @@ layout: home
 ---
 {% include header.html %}
 
-<section class="container-fluid bg-color-muted" id="about">
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="about">
  {% include about.html %}
 </section>
 
-<section class="container-fluid" id="scenarios">
+<section class="pt-2 pb-4 container-fluid" id="scenarios">
   {% include scenarios.html %}
 </section>
 
-<section class="container-fluid bg-color-muted" id="faq">
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="faq">
   {% include faq.html %}
 </section>
 
-<section class="container-fluid" id="timeline">
+<section class="pt-2 pb-4 container-fluid" id="timeline">
   {% include timeline.html %}
 </section>
 
 <!-- <hr> -->
-<section class="container-fluid bg-color-muted" id="apply">
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="apply">
   {% include apply.html %}
 </section>
 
+<section class="pt-2 pb-4 container-fluid" id="contact">
+  {% include contact.html %}
+</section>
 
+<section class="pt-2 pb-4 container-fluid" id="about-us">
+  {% include about-us.html %}
+</section>
+
+<br>

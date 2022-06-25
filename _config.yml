@@ -1,9 +1,9 @@
 # site settings
 title: EITI Datathon 2022
-description: ""
+description: "Prototype solutions to challenges in energy transition"
 email: "eitidatathon@okfn.org"
 baseurl: "/eitidatathon2022-guide"
-logo: "assets/img/eiti-datathon-gradient.png"
+logo: "assets/img/logos/eiti-datathon-gradient.png"
 favicon: favicon.ico
 repo_address: "school-of-data/eitidatathon2022-guide"
 messenger: ""
