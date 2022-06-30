@@ -1,6 +1,64 @@
 ---
-layout: default
+layout: page
 ---
-<div class='container py-4'>
-    {{ content }}
+
+<section class="d-flex flex-wrap justify-content-between align-items-center" id="intro">
+    <div class="col-md-3 col-lg-2">
+    <figure>
+        {% if page.img-attr %}
+        <a href="{{ page.img-attr }}" target="_blank" title="{{ page.img-attr-title }}">
+            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/scenarios/{{ page.img }}">
+        </a>
+        {% else %}
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/scenarios/{{ page.img }}">
+        {% endif %}
+    </figure>
+    </div>
+    <div class="col-md-9 col-lg-10">
+        <p style="font-size: xx-large"><strong class="color-primary-1 mt-4">{{ page.title }}</strong></p>
+    </div>
+</section>
+
+<section class="color-primary-2 rounded px-4 pt-2 pb-4 my-4" style="border: 6px solid" id="scenario">
+
+<h1 class="color-primary-2">The scenario</h1>
+
+<p><strong style="font-size: x-large">Once upon a time,</strong> {{ page.once }}</p>
+<p><strong style="font-size: x-large">Every day,</strong> {{ page.every }}</p>
+
+<div class="bg-color-muted rounded px-4 py-2 mb-4">
+<p><strong class="color-primary-1" style="font-size: xx-large">This is where your proposal comes in.</strong></p>
+<p><strong class="color-primary-1">How will you address the problems and challenges being faced everyday?</strong></p>
+<p><strong class="color-primary-1">What changes will your solution bring so that...</strong></p>
 </div>
+
+<p><strong style="font-size: x-large">Finally,</strong> {{ page.until }}</p>
+<hr>
+<h2><strong>Keywords</strong></h2>
+<p>{{ page.keywords }}</p>
+
+<h2><strong>Skills needed</strong></h2>
+<p></p>
+
+</section>
+
+<section class="color-primary-3 rounded px-4 pt-2 pb-4 my-4" style="border: 6px solid" id="starter-kit">
+<h1 class="color-primary-3">Scenario Starter Kit</h1>
+<h2><strong>Recommendations for your design process</strong></h2>
+<p></p>
+
+<h2><strong>Glossary of key terms</strong></h2>
+<p></p>
+
+<h2><strong>Who will be your audience and users?</strong></h2>
+<p></p>
+
+<h2><strong>Things to look out for</strong></h2>
+<p></p>
+
+<h2><strong>Recommended datasets</strong></h2>
+<p></p>
+
+</section>
+
+{{ content }}
