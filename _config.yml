@@ -33,6 +33,9 @@ collections:
     collection_faq_eligibility:
     collection_faq_submission:
     collection_scenario_1_data:
+    collection_scenario_2_data:
+    collection_scenario_3_data:
+    collection_scenario_4_data:
         
 
 # plugins

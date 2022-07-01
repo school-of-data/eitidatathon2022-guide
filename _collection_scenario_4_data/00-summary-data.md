@@ -1,0 +1,7 @@
+---
+id: summary-data
+name: Summary Data from EITI Reports
+what: Data files collected by using <a href="https://beta.eiti.org/node/4866">Summary Data Templates</a> and organized in folders by country. These include a wide range of fiscal, legal and contextual data related extractive industries, including company-by-company revenue data.  
+where: The data is shared freely in <a href="https://drive.google.com/drive/folders/0B9Bl74fkjArzcWtDMDE3eUtYajA">this Google Drive</a> as per <a href="https://beta.eiti.org/standard/open-data-policy">EITI's Open Data Policy</a>.
+tips: <ul><li><strong>What's in the folders</strong> - The data files are organised in folders by country and contains:<ul><li>Excel files of summary data for a specific year. Some are “proxy” files, with aggregate data, as we await the full summary data sheet from the implementing country.</li><li>The EITI Report that is the basis of the Summary Data.</li></ul></li><li><strong>Sources of the data</strong> - Recent data has been provided by Independent Administrators and National Secretariats of the EITI, while data from older reports are continuously being compiled by the International Secretariat itself.</li><li><strong>Data quality </strong> - Implementing countries are responsible for ensuring that this data is accurate. For detailed information, you may consult the original reports. Where figures are not available in US dollars, the annual average exchange rate is used.</li></ul>
+---

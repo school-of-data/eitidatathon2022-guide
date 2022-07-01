@@ -131,3 +131,24 @@ form.contact-us input[type="text"], form.contact-us input[type="email"], form.co
 form.contact-us textarea {
     height: 300px;
 }
+
+.scenario-keyword {
+    @extend .no-underline-link;
+    color: $color-white;
+    background-color: $color-primary-1;
+    padding: 0.3em 0.3em;
+    margin: 0.15em 0.15em 0.15em 0;
+    font-weight: bold;
+
+    &:hover {
+        background-color: $color-primary-4;
+        color: $color-black;
+    }
+}
+
+.btn-hover {
+    &:hover {
+        background-color: $color-primary-4;
+        color: $color-black;
+    }
+}
