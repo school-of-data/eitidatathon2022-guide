@@ -8,23 +8,43 @@ once: EITI member countries published annual reports that included information o
 every: during the preparation of the annual report, each country’s EITI secretariat would work together with an Independent Administrator (IA) to ask the relevant agencies of both the national and the subnational governments to fill in a form on subnational transfers. If any discrepancy in the data submitted by each side appeared, a tedious, weeks-long process started to reconcile the data&#58; a back and forth of manual review, emails, excel file attachments and meetings that everyone involved found inefficient. 
 until: the process of collecting and reconciling data became much more efficient, leading to a speedier validation process and an earlier release of the data to the public.
 keywords: [data sharing, data collection process, streamlining, data reconciliation, national government, subnational government, financial transfer]
+reco: [""]
+audience: [""]
+lookout: [""]
 data_resource: [Summary data from EITI reports, Subnational transfers data]
 ---
-
 
 <section class="color-primary-3 rounded px-4 pt-2 pb-4 my-4" style="border: 6px solid" id="starter-kit">
 <h1 class="color-primary-3">Scenario Starter Kit</h1>
 <h2><strong>Recommendations for your design process</strong></h2>
-<p></p>
+<p>
+    <ul class="color-black">
+    {% for item in page.reco %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+</p>
 
 <!-- <h2><strong>Glossary of key terms</strong></h2>
 <p></p> -->
 
 <h2><strong>Who will be your audience and users?</strong></h2>
-<p></p>
+<p>The key stakeholders for this scenario are:
+    <ul class="color-black">
+    {% for item in page.audience %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+</p>
 
-<h2><strong>Things to look out for</strong></h2>
-<p></p>
+<!-- <h2><strong>Things to look out for</strong></h2>
+<p>
+<ul class="color-black">
+    {% for item in page.lookout %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+</p> -->
 
 <h2><strong>Recommended data and resources</strong></h2>
 <p>
