@@ -3,15 +3,15 @@ layout: scenario-page
 img: scenario-4.png
 # img-attr: https://www.flaticon.com/free-icons/data-collection
 # img-attr-title: Data collection icons created by Becris - Flaticon
-title: <span class="font-weight-light">Scenario 4&#58;</span> Help create a better data reconciliation process in a context of uncertainty.
-once: EITI member countries published annual reports that included information on revenue flows in the extractive industries. Every year, the EITI went through data reconciliation processes in order to ensure that the data provided by the national government matched with the data provided by other stakeholders. Of particular interest was the data related to transfers of extractive sector revenues between the national government and subnational governments&#58; in a context where the government’s income from the sector varied widely from year to year, and with the energy transition promising even more uncertainty, efficiently reconciling disclosures related to the transfers made by the national government and the amounts received by subnational governments was becoming a pressing issue.
-every: during the preparation of the annual report, each country’s EITI secretariat would work together with an Independent Administrator (IA) to ask the relevant agencies of both the national and the subnational governments to fill in a form on subnational transfers. If any discrepancy in the data submitted by each side appeared, a tedious, weeks-long process started to reconcile the data&#58; a back and forth of manual review, emails, excel file attachments and meetings that everyone involved found inefficient. 
-until: the process of collecting and reconciling data became much more efficient, leading to a speedier validation process and an earlier release of the data to the public.
-keywords: [data sharing, data collection process, streamlining, data reconciliation, national government, subnational government, financial transfer]
+title: <span class="font-weight-light">Scenario 4&#58;</span> Support government officials to analyse company disclosures in a context of volatility and uncertainty.
+once: a country’s extractive industries were experiencing significant uncertainty as a result of the global energy transition. Commodity prices were volatile and the long-term prospects for the sector unclear. Some companies were ramping up production, others were scaling back their activities. This was resulting in big changes in the revenues the government was collecting from different companies. While EITI disclosures shed light on the payments companies were making, government officials were unsure whether those amounts reflected how much companies should have paid.
+every: government officials would wonder how to assess the quality of company disclosures. They wanted to know whether companies were paying what they owed and whether the country was getting its fair share of the sector’s benefits. The officials had access to project-level data on revenue payments and production volumes. The officials thought that by combining this information with data on commodity prices they should be able to better understand whether companies were complying with their revenue obligations.
+until: the government had a tool that allowed them to estimate how much revenue different projects should have paid based on the volume and value of their production. Where big discrepancies emerged between the amounts paid and the amounts that might have been expected, the government was able to engage companies for clarification. This provided a useful means for holding companies accountable and building trust around the accuracy of company payments.
+keywords: []
 reco: [""]
 audience: [""]
 lookout: [""]
-data_resource: [Summary data from EITI reports, Subnational transfers data]
+data_resource: [Summary data from EITI reports, "Revenue data", "Production data", "EITI API"]
 ---
 
 <section class="color-primary-3 rounded px-4 pt-2 pb-4 my-4" style="border: 6px solid" id="starter-kit">
@@ -61,7 +61,7 @@ data_resource: [Summary data from EITI reports, Subnational transfers data]
 <section class="color-primary-4 rounded px-4 pt-2 pb-4 my-4" style="border: 6px solid" id="data-documentation">
 <h1 class="color-primary-4">Data and resource documentation</h1>
 {% for item in site.collection_scenario_4_data %}
-    <div class="bg-color-muted rounded px-4 py-2 mb-4 color-black">
+    <div class="bg-color-muted rounded px-4 py-2 mb-4 color-black" id="{{ item.id }}">
         <h2><strong>{{ item.name }}</strong></h2>
         <h3>What is it?</h3>
         <p>{{ item.what }}</p>
@@ -70,7 +70,18 @@ data_resource: [Summary data from EITI reports, Subnational transfers data]
         <!-- <h3>Data dictionary</h3>
         <p></p> -->
         <h3>Tips and advice about the resource</h3>
-        <p>{{ item.tips }}</p>
+        <p>
+        <ul class="color-black">
+        {% for tip in item.tips %}
+            <li>{{ tip }}</li>
+        {% endfor %}
+        </ul>
+        <!-- {{ item.tips }} -->
+        </p>
     </div>
 {% endfor %}
+</section>
+
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="apply">
+  {% include scenario-apply.html %}
 </section>
