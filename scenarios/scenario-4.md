@@ -3,13 +3,13 @@ layout: scenario-page
 img: scenario-4.png
 # img-attr: https://www.flaticon.com/free-icons/data-collection
 # img-attr-title: Data collection icons created by Becris - Flaticon
-title: <span class="font-weight-light">Scenario 4&#58;</span> Help strengthen public disclosure of revenue data by government agencies in a context of uncertainty.
+title: <span class="font-weight-light">Scenario 4&#58;</span> Support government officials to analyse company disclosures in a context of volatility and uncertainty.
 once: a country’s extractive industries were experiencing significant uncertainty as a result of the global energy transition. Commodity prices were volatile and the long-term prospects for the sector unclear. Some companies were ramping up production, others were scaling back their activities. This was resulting in big changes in the revenues the government was collecting from different companies. While EITI disclosures shed light on the payments companies were making, government officials were unsure whether those amounts reflected how much companies should have paid.
 every: government officials would wonder how to assess the quality of company disclosures. They wanted to know whether companies were paying what they owed and whether the country was getting its fair share of the sector’s benefits. The officials had access to project-level data on revenue payments and production volumes. The officials thought that by combining this information with data on commodity prices they should be able to better understand whether companies were complying with their revenue obligations.
 until: the government had a tool that allowed them to estimate how much revenue different projects should have paid based on the volume and value of their production. Where big discrepancies emerged between the amounts paid and the amounts that might have been expected, the government was able to engage companies for clarification. This provided a useful means for holding companies accountable and building trust around the accuracy of company payments.
-keywords: []
+keywords: [trust, accountability, uncertainty, disclosures, data quality, data validation, government payments]
 reco: [""]
-audience: [""]
+audience: ["<strong>government officials</strong> - ", "<strong>civil society groups</strong> - ", "<strong>extractive companies</strong> - "]
 lookout: [""]
 data_resource: [Summary data from EITI reports, "Revenue data", "Production data", "EITI API"]
 ---
