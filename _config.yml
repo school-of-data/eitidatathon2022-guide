@@ -14,6 +14,10 @@ mastodon: ""
 telegram: ""
 github: ""
 
+# links
+link_qna: ""
+link_submission: https://forms.gle/jn797xoWT37G4JxQ6
+
 # exclude
 exclude:
     - .gitignore
