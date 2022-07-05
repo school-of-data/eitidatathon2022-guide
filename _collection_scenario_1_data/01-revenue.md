@@ -2,6 +2,6 @@
 id: revenue-data
 name: Revenue data
 what: "Data on government revenue disaggregated by revenue streams and government agency according to GFS classification."
-where: ""
-tips: ""
+where: You can find this data in <a href="https://drive.google.com/drive/folders/0B9Bl74fkjArzcWtDMDE3eUtYajA">EITI reports and summary data files</a>, particularly in the Summary Data spreadsheets. For example&#58; <ul><li><strong>3. Revenues tab</strong> in <a href="https://docs.google.com/spreadsheets/d/1qe-kZFNe_nG45jTO7KUbtTltY9DpLU_c/edit?usp=sharing&ouid=113100825912453909199&rtpof=true&sd=true">2017 Senegal Summary Data EN_san</a></li><li><strong>Part 4 - Government revenues and Part 5 - Company data tabs</strong> in <a href="https://docs.google.com/spreadsheets/d/12yPpRMJC3oiwWMRMuTrNk6jJ3PhWDlcv/edit?usp=sharing&ouid=113100825912453909199&rtpof=true&sd=true">2019 Senegal Summary Data EN v2</a></li></ul>
+tips: ["The information about revenue is disaggregated by sector (oil and gas or mining).", "This information can be found in different tabs depending on the reporting template version used in the spreadsheet. For version 1.1 (most reports prior to 2018), it can be found in the 3. Revenues tab. For version 2.0 (most reports since 2018), it can be found in the Part 4 - Government revenues and Part 5 - Company data tabs", "The <a href='https://drive.google.com/drive/folders/0B361RU22DTPfd1d4NERBQUgzVHc?resourcekey=0-Ju6bXQ-PU6Zh_07ecZ1BdQ&usp=sharing'>data for Senegal</a> is a good example of a dataset that includes multiple years of reporting including several that use the most recent reporting template.", "You can also use the <a href='https://eiti.org/api'>EITI API</a> to fetch specific datasets based on your needs."]
 ---

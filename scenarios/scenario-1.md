@@ -70,7 +70,18 @@ data_resource: [Summary data from EITI reports, "Revenue data", "Production data
         <!-- <h3>Data dictionary</h3>
         <p></p> -->
         <h3>Tips and advice about the resource</h3>
-        <p>{{ item.tips }}</p>
+        <p>
+        <ul class="color-black">
+        {% for tip in item.tips %}
+            <li>{{ tip }}</li>
+        {% endfor %}
+        </ul>
+        <!-- {{ item.tips }} -->
+        </p>
     </div>
 {% endfor %}
+</section>
+
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="apply">
+  {% include scenario-apply.html %}
 </section>

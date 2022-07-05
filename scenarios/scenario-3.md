@@ -11,7 +11,7 @@ keywords: [data visualisation, EITI report, local communities, pedagogy, actiona
 reco: ["You can choose a specific country with good social spending data as the subject of your proposal.", "Using the information available in the reports and other external sources, try to incorporate other parameters in your solution that provide details about the community (e.g. are most of them employed in the mining industry?) and other impacts that the mining industry has on the community (e.g. environmental impact)."]
 audience: ["<strong>EITI staff</strong> - your solution should make it easier for EITI staff to communicate effectively with the community.", "<strong>Community members</strong> - your solution should enable community members to easily access, understand, and share information about how community payments by mining companies are being used."]
 lookout: [""]
-data_resource: [Summary data from EITI reports, Social and environmental expenditures]
+data_resource: [Summary data from EITI reports, Social and environmental expenditures, EITI API]
 ---
 
 <section class="color-primary-3 rounded px-4 pt-2 pb-4 my-4" style="border: 6px solid" id="starter-kit">
@@ -70,7 +70,18 @@ data_resource: [Summary data from EITI reports, Social and environmental expendi
         <!-- <h3>Data dictionary</h3>
         <p></p> -->
         <h3>Tips and advice about the resource</h3>
-        <p>{{ item.tips }}</p>
+        <p>
+        <ul class="color-black">
+        {% for tip in item.tips %}
+            <li>{{ tip }}</li>
+        {% endfor %}
+        </ul>
+        <!-- {{ item.tips }} -->
+        </p>
     </div>
 {% endfor %}
+</section>
+
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="apply">
+  {% include scenario-apply.html %}
 </section>
