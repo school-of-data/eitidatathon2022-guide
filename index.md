@@ -20,8 +20,8 @@ layout: home
 </section>
 
 <!-- <hr> -->
-<section class="pt-2 pb-4 container-fluid bg-color-muted" id="apply">
-  {% include apply.html %}
+<section class="pt-2 pb-4 container-fluid bg-color-muted" id="submit-proposal">
+  {% include submit-proposal.html %}
 </section>
 
 <section class="pt-2 pb-4 container-fluid" id="contact">

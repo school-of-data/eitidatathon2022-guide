@@ -15,7 +15,9 @@ telegram: ""
 github: ""
 
 # links
-link_qna: ""
+link_qna_asia: "https://us02web.zoom.us/meeting/register/tZ0ofumsrTIpEtwzXsRija-Q4FV8vGduLiAI"
+link_qna_euafr: "https://us02web.zoom.us/meeting/register/tZEtc-ygqT8tGtR34ffEYQncacuT387eV3H0"
+link_qna_ame: "https://us02web.zoom.us/meeting/register/tZcodeyppz4iHN1FzP3A_8vkqeBxO9oQnBup"
 link_submission: https://forms.gle/jn797xoWT37G4JxQ6
 
 # exclude
