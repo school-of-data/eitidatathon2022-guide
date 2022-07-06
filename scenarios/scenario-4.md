@@ -3,7 +3,7 @@ layout: scenario-page
 img: scenario-4.png
 # img-attr: https://www.flaticon.com/free-icons/data-collection
 # img-attr-title: Data collection icons created by Becris - Flaticon
-title: <span class="font-weight-light">Scenario 4&#58;</span> Support government officials to analyse company disclosures in a context of volatility and uncertainty.
+title: <span class="font-weight-light">Scenario 4&#58;</span> Supporting government officials to understand company disclosures in a context of volatility and uncertainty
 once: a country’s extractive industries were experiencing significant uncertainty as a result of the global energy transition. Commodity prices were volatile, and some companies were ramping up production, while others were scaling back their activities. This was resulting in big changes in the revenues the government was collecting. Citizens were demanding answers from the government about why the revenues paid by some companies varied so dramatically from year to year.
 every: overnment officials would wonder how to respond to the questions coming from citizens. While EITI disclosures shed light on the payments companies were making, officials needed a way of explaining what was driving the changes in payments. They wanted to know to what extent revenue flows were influenced by factors like commodity prices, production volumes, project costs or the nature of the country’s fiscal regime.
 until: the government had a tool that allowed them to better explain the revenue payments being made by companies. This helped the government to build trust with civil society and companies around the sector’s revenue flows.
